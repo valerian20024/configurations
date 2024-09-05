@@ -112,27 +112,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/valerian/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/valerian/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/valerian/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/valerian/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# starting pacman environment
-
-alias pacman='source activate /home/valerian/miniconda3/envs/pacman'
-
 # updating system easily
 alias maj='sudo apt update && sudo apt upgrade -y'
 
-# changing directory to SDA projetcs
-alias SDA='cd /home/valerian/Documents/SDA/projet\ 2/fichiers-p2-2023/'
+# neofetch displayed in a more efficient way
+cat .nf 2> /dev/null
+setsid neofetch >| .nf
