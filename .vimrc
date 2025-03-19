@@ -30,3 +30,6 @@ set tabstop=4
 
 " Use space characters instead of tabs
 set expandtab
+
+" Change default colors
+:colorscheme wildcharm
