@@ -1,0 +1,27 @@
+[legacy]
+shortcuts-enabled=true
+
+[legacy/profiles:]
+default='bcced380-651e-486c-ad6d-15e4185e49ad'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'bcced380-651e-486c-ad6d-15e4185e49ad']
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(0,43,54)'
+foreground-color='rgb(131,148,150)'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-theme-colors=false
+
+[legacy/profiles:/:bcced380-651e-486c-ad6d-15e4185e49ad]
+audible-bell=false
+background-color='rgb(23,20,33)'
+bold-color-same-as-fg=true
+cursor-background-color='rgb(224,166,101)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(78,48,3)'
+foreground-color='rgb(208,207,204)'
+highlight-background-color='rgb(195,83,171)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(58,5,47)'
+palette=['rgb(132,132,132)', 'rgb(163,0,0)', 'rgb(24,207,75)', 'rgb(230,170,23)', 'rgb(95,40,224)', 'rgb(205,0,205)', 'rgb(26,232,220)', 'rgb(229,229,229)', 'rgb(211,211,211)', 'rgb(216,42,74)', 'rgb(99,216,118)', 'rgb(218,217,38)', 'rgb(120,89,189)', 'rgb(255,0,255)', 'rgb(99,230,230)', 'rgb(255,255,255)']
+use-theme-colors=false
+visible-name='retrowave'
